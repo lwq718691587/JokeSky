@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dataArr = @[@"应用名称",@"开发商",@"联系方式"];
-    self.dataArr2 = @[@"笑话一条街",@"LCTechnology",@"718691587(QQ)"];
+    self.dataArr2 = @[@"笑翻天",@"LCTechnology",@"718691587(QQ)"];
     [self createViews];
     
 }
@@ -35,7 +35,7 @@
 -(void)addViews
 {
     UIImageView * logoImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, SFhy(50), SFwx(100),  SFhy(100))];
-    logoImageView.image = [UIImage imageNamed:@"aboutusicon"];
+    logoImageView.image = [UIImage imageNamed:@"Freeicon.png"];
     logoImageView.centerX =ScreenWidth/2;
     [self.view addSubview:logoImageView];
     
@@ -46,7 +46,7 @@
     NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
     // app版本
     NSString *app_Version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
-    verLabel.text = [NSString stringWithFormat:@"笑话一条街 Ver %@",app_Version];
+    verLabel.text = [NSString stringWithFormat:@"笑翻天 Ver %@",app_Version];
     [self.view addSubview:verLabel];
     
 

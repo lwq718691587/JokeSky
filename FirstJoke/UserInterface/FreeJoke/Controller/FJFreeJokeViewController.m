@@ -28,7 +28,7 @@
 
 - (void)update:(NSInteger )pagenumber{
   
-    if ([self.type isEqualToString:@"免费"]) {
+    if ([self.type isEqualToString:@"精选"]) {
         [FJFreeJokeModel getjokeListOfPageNum:pagenumber Success:^(NSMutableArray *dataArr) {
             if (pagenumber == 1) {
                 self.dataArr = dataArr;

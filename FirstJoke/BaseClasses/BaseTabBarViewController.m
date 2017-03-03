@@ -9,7 +9,7 @@
 #import "BaseTabBarViewController.h"
 #import "BaseNavigationViewController.h"
 #import "LQMacro.h"
-#import "FJChargeJokeViewController.h"
+
 #import "FJFreeJokeViewController.h"
 #import "FJAboutViewController.h"
 @interface BaseTabBarViewController ()
@@ -35,13 +35,13 @@
 {
     
     FJFreeJokeViewController * vc1 = [[FJFreeJokeViewController alloc]init];
-    vc1.title = @"免费";
-    vc1.type = @"免费";
+    vc1.title = @"精选";
+    vc1.type = @"精选";
     BaseNavigationViewController * nvc1 = [[BaseNavigationViewController alloc]initWithRootViewController:vc1];
     
-    FJChargeJokeViewController * vc2 = [[FJChargeJokeViewController alloc]init];
-    vc2.title = @"精选";
-    BaseNavigationViewController * nvc2 = [[BaseNavigationViewController alloc]initWithRootViewController:vc2];
+//    FJChargeJokeViewController * vc2 = [[FJChargeJokeViewController alloc]init];
+//    vc2.title = @"精选";
+//    BaseNavigationViewController * nvc2 = [[BaseNavigationViewController alloc]initWithRootViewController:vc2];
     
     FJFreeJokeViewController * vc3 = [[FJFreeJokeViewController alloc]init];
     vc3.title = @"随便看看";
@@ -52,7 +52,8 @@
     vc4.title = @"关于我们";
     BaseNavigationViewController * nvc4 = [[BaseNavigationViewController alloc]initWithRootViewController:vc4];
     
-    self.viewControllers = @[nvc1,nvc2,nvc3,nvc4];
+//    self.viewControllers = @[nvc1,nvc2,nvc3,nvc4];
+    self.viewControllers = @[nvc1,nvc3,nvc4];
     
 }
 
@@ -60,8 +61,8 @@
     
     self.tabBar.tintColor = AppColor;
     
-    NSArray * itemImageArr = @[@"Free",@"精选",@"suibian",@"AboutUS"];
-    
+//    NSArray * itemImageArr = @[@"Free",@"精选",@"suibian",@"AboutUS"];
+    NSArray * itemImageArr = @[@"精选",@"suibian",@"AboutUS"];
     for (int i = 0; i < itemImageArr.count; i++) {
         UITabBarItem * item = self.tabBar.items[i];
         item.image = [UIImage imageNamed:itemImageArr[i]];

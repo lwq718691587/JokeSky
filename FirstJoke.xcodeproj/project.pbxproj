@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		B10E38132C141C53EB26BDC6 /* libPods-FirstJoke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FCEFA7F959922B7C8678C4 /* libPods-FirstJoke.a */; };
 		FC017A1F1E4AF666001C4821 /* FJFreeJokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC017A1E1E4AF666001C4821 /* FJFreeJokeTableViewCell.m */; };
-		FC017A231E4AFC9B001C4821 /* FJChargeJokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC017A221E4AFC9B001C4821 /* FJChargeJokeModel.m */; };
-		FC017A271E4AFD8F001C4821 /* FJChargeJokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC017A261E4AFD8F001C4821 /* FJChargeJokeTableViewCell.m */; };
-		FC017A2B1E4B1963001C4821 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC017A2A1E4B1963001C4821 /* timg.jpeg */; };
 		FC33BC371E4ADDAF001C798F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33BC361E4ADDAF001C798F /* main.m */; };
 		FC33BC3A1E4ADDAF001C798F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC33BC391E4ADDAF001C798F /* AppDelegate.m */; };
 		FC33BC401E4ADDAF001C798F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC33BC3E1E4ADDAF001C798F /* Main.storyboard */; };
@@ -39,22 +36,11 @@
 		FC74841C1E4ADF6900D82CB4 /* LQNetworkingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7483421E4ADF6800D82CB4 /* LQNetworkingRequest.m */; };
 		FC74841D1E4ADF6900D82CB4 /* KSKRoundCornerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7483461E4ADF6800D82CB4 /* KSKRoundCornerCell.m */; };
 		FC74842C1E4AE08600D82CB4 /* FJFreeJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC74842B1E4AE08600D82CB4 /* FJFreeJokeViewController.m */; };
-		FC74842F1E4AE0A500D82CB4 /* FJChargeJokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC74842E1E4AE0A500D82CB4 /* FJChargeJokeViewController.m */; };
 		FCB464CA1E4AEC1A0081F6FA /* FJFreeJokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB464C91E4AEC1A0081F6FA /* FJFreeJokeModel.m */; };
-		FCC9327B1E5C670D00227DDC /* FJCharge.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC9327A1E5C670D00227DDC /* FJCharge.plist */; };
-		FCC932821E5C67F800227DDC /* charge5.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC9327D1E5C67F800227DDC /* charge5.png */; };
-		FCC932831E5C67F800227DDC /* charge4.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC9327E1E5C67F800227DDC /* charge4.png */; };
-		FCC932841E5C67F800227DDC /* charge3.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC9327F1E5C67F800227DDC /* charge3.png */; };
-		FCC932851E5C67F800227DDC /* charge2.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC932801E5C67F800227DDC /* charge2.png */; };
-		FCC932861E5C67F800227DDC /* charge1.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC932811E5C67F800227DDC /* charge1.png */; };
 		FCC932881E5C6A3B00227DDC /* FJFree.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCC932871E5C6A3B00227DDC /* FJFree.plist */; };
-		FCC9328D1E5C6E0B00227DDC /* charge6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC932891E5C6E0B00227DDC /* charge6.jpg */; };
-		FCC9328E1E5C6E0B00227DDC /* charge7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC9328A1E5C6E0B00227DDC /* charge7.jpg */; };
-		FCC9328F1E5C6E0B00227DDC /* charge8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC9328B1E5C6E0B00227DDC /* charge8.jpg */; };
-		FCC932901E5C6E0B00227DDC /* charge9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC9328C1E5C6E0B00227DDC /* charge9.jpg */; };
-		FCC932921E5C6E0F00227DDC /* charge10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC932911E5C6E0F00227DDC /* charge10.jpg */; };
 		FCE64DBB1E4C44D700D7C5BE /* FJAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE64DB91E4C44D700D7C5BE /* FJAboutViewController.m */; };
 		FCE64DBF1E4C488200D7C5BE /* OCAboutUSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE64DBE1E4C488200D7C5BE /* OCAboutUSTableViewCell.m */; };
+		FCF2C9631E6973BE009BB19B /* Freeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF2C9621E6973BE009BB19B /* Freeicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,11 +66,6 @@
 		E03D10D9C43FF4C74454CEB2 /* Pods-FirstJoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstJoke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstJoke/Pods-FirstJoke.debug.xcconfig"; sourceTree = "<group>"; };
 		FC017A1D1E4AF666001C4821 /* FJFreeJokeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFreeJokeTableViewCell.h; sourceTree = "<group>"; };
 		FC017A1E1E4AF666001C4821 /* FJFreeJokeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFreeJokeTableViewCell.m; sourceTree = "<group>"; };
-		FC017A211E4AFC9B001C4821 /* FJChargeJokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJChargeJokeModel.h; sourceTree = "<group>"; };
-		FC017A221E4AFC9B001C4821 /* FJChargeJokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJChargeJokeModel.m; sourceTree = "<group>"; };
-		FC017A251E4AFD8F001C4821 /* FJChargeJokeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJChargeJokeTableViewCell.h; sourceTree = "<group>"; };
-		FC017A261E4AFD8F001C4821 /* FJChargeJokeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJChargeJokeTableViewCell.m; sourceTree = "<group>"; };
-		FC017A2A1E4B1963001C4821 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		FC33BC321E4ADDAF001C798F /* FirstJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC33BC361E4ADDAF001C798F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC33BC381E4ADDAF001C798F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,26 +127,14 @@
 		FC7483461E4ADF6800D82CB4 /* KSKRoundCornerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSKRoundCornerCell.m; sourceTree = "<group>"; };
 		FC74842A1E4AE08600D82CB4 /* FJFreeJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFreeJokeViewController.h; sourceTree = "<group>"; };
 		FC74842B1E4AE08600D82CB4 /* FJFreeJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFreeJokeViewController.m; sourceTree = "<group>"; };
-		FC74842D1E4AE0A500D82CB4 /* FJChargeJokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJChargeJokeViewController.h; sourceTree = "<group>"; };
-		FC74842E1E4AE0A500D82CB4 /* FJChargeJokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJChargeJokeViewController.m; sourceTree = "<group>"; };
 		FCB464C81E4AEC1A0081F6FA /* FJFreeJokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJFreeJokeModel.h; sourceTree = "<group>"; };
 		FCB464C91E4AEC1A0081F6FA /* FJFreeJokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJFreeJokeModel.m; sourceTree = "<group>"; };
-		FCC9327A1E5C670D00227DDC /* FJCharge.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FJCharge.plist; path = ../FJCharge.plist; sourceTree = "<group>"; };
-		FCC9327D1E5C67F800227DDC /* charge5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge5.png; sourceTree = "<group>"; };
-		FCC9327E1E5C67F800227DDC /* charge4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge4.png; sourceTree = "<group>"; };
-		FCC9327F1E5C67F800227DDC /* charge3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge3.png; sourceTree = "<group>"; };
-		FCC932801E5C67F800227DDC /* charge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge2.png; sourceTree = "<group>"; };
-		FCC932811E5C67F800227DDC /* charge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge1.png; sourceTree = "<group>"; };
 		FCC932871E5C6A3B00227DDC /* FJFree.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FJFree.plist; sourceTree = "<group>"; };
-		FCC932891E5C6E0B00227DDC /* charge6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charge6.jpg; sourceTree = "<group>"; };
-		FCC9328A1E5C6E0B00227DDC /* charge7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charge7.jpg; sourceTree = "<group>"; };
-		FCC9328B1E5C6E0B00227DDC /* charge8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charge8.jpg; sourceTree = "<group>"; };
-		FCC9328C1E5C6E0B00227DDC /* charge9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charge9.jpg; sourceTree = "<group>"; };
-		FCC932911E5C6E0F00227DDC /* charge10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charge10.jpg; sourceTree = "<group>"; };
 		FCE64DB81E4C44D700D7C5BE /* FJAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJAboutViewController.h; sourceTree = "<group>"; };
 		FCE64DB91E4C44D700D7C5BE /* FJAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJAboutViewController.m; sourceTree = "<group>"; };
 		FCE64DBD1E4C488200D7C5BE /* OCAboutUSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAboutUSTableViewCell.h; sourceTree = "<group>"; };
 		FCE64DBE1E4C488200D7C5BE /* OCAboutUSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAboutUSTableViewCell.m; sourceTree = "<group>"; };
+		FCF2C9621E6973BE009BB19B /* Freeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Freeicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,26 +189,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		FC017A201E4AFC6F001C4821 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				FCC9327C1E5C67F300227DDC /* DateSoures */,
-				FC017A211E4AFC9B001C4821 /* FJChargeJokeModel.h */,
-				FC017A221E4AFC9B001C4821 /* FJChargeJokeModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		FC017A241E4AFCA4001C4821 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FC017A2A1E4B1963001C4821 /* timg.jpeg */,
-				FC017A251E4AFD8F001C4821 /* FJChargeJokeTableViewCell.h */,
-				FC017A261E4AFD8F001C4821 /* FJChargeJokeTableViewCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		FC33BC291E4ADDAD001C798F = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +224,7 @@
 				FC33BC411E4ADDAF001C798F /* Assets.xcassets */,
 				FC33BC431E4ADDAF001C798F /* LaunchScreen.storyboard */,
 				FC33BC461E4ADDAF001C798F /* Info.plist */,
+				FCF2C9621E6973BE009BB19B /* Freeicon.png */,
 				FC33BC351E4ADDAF001C798F /* Supporting Files */,
 			);
 			path = FirstJoke;
@@ -310,7 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				FCE64DB41E4C3C1B00D7C5BE /* AboutUs */,
-				FC7484201E4ADFF700D82CB4 /* ChargeJoke */,
 				FC7484211E4ADFF700D82CB4 /* FreeJoke */,
 			);
 			path = UserInterface;
@@ -446,16 +395,6 @@
 			path = KSRoundCornerCell;
 			sourceTree = "<group>";
 		};
-		FC7484201E4ADFF700D82CB4 /* ChargeJoke */ = {
-			isa = PBXGroup;
-			children = (
-				FC017A241E4AFCA4001C4821 /* View */,
-				FC017A201E4AFC6F001C4821 /* Model */,
-				FC7484221E4AE00400D82CB4 /* Controller */,
-			);
-			path = ChargeJoke;
-			sourceTree = "<group>";
-		};
 		FC7484211E4ADFF700D82CB4 /* FreeJoke */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,15 +403,6 @@
 				FC7484261E4AE03A00D82CB4 /* Controller */,
 			);
 			path = FreeJoke;
-			sourceTree = "<group>";
-		};
-		FC7484221E4AE00400D82CB4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FC74842D1E4AE0A500D82CB4 /* FJChargeJokeViewController.h */,
-				FC74842E1E4AE0A500D82CB4 /* FJChargeJokeViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		FC7484261E4AE03A00D82CB4 /* Controller */ = {
@@ -492,24 +422,6 @@
 				FCB464C91E4AEC1A0081F6FA /* FJFreeJokeModel.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		FCC9327C1E5C67F300227DDC /* DateSoures */ = {
-			isa = PBXGroup;
-			children = (
-				FCC9327A1E5C670D00227DDC /* FJCharge.plist */,
-				FCC932911E5C6E0F00227DDC /* charge10.jpg */,
-				FCC932891E5C6E0B00227DDC /* charge6.jpg */,
-				FCC9328A1E5C6E0B00227DDC /* charge7.jpg */,
-				FCC9328B1E5C6E0B00227DDC /* charge8.jpg */,
-				FCC9328C1E5C6E0B00227DDC /* charge9.jpg */,
-				FCC9327D1E5C67F800227DDC /* charge5.png */,
-				FCC9327E1E5C67F800227DDC /* charge4.png */,
-				FCC9327F1E5C67F800227DDC /* charge3.png */,
-				FCC932801E5C67F800227DDC /* charge2.png */,
-				FCC932811E5C67F800227DDC /* charge1.png */,
-			);
-			path = DateSoures;
 			sourceTree = "<group>";
 		};
 		FCE64DB41E4C3C1B00D7C5BE /* AboutUs */ = {
@@ -594,7 +506,7 @@
 					FC33BC311E4ADDAD001C798F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9XN34D62H7;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					FC33BC4A1E4ADDAF001C798F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -635,22 +547,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC932851E5C67F800227DDC /* charge2.png in Resources */,
-				FCC932861E5C67F800227DDC /* charge1.png in Resources */,
 				FCC932881E5C6A3B00227DDC /* FJFree.plist in Resources */,
-				FCC932901E5C6E0B00227DDC /* charge9.jpg in Resources */,
-				FCC9328E1E5C6E0B00227DDC /* charge7.jpg in Resources */,
-				FCC9328F1E5C6E0B00227DDC /* charge8.jpg in Resources */,
-				FCC932921E5C6E0F00227DDC /* charge10.jpg in Resources */,
 				FC33BC451E4ADDAF001C798F /* LaunchScreen.storyboard in Resources */,
 				FC33BC421E4ADDAF001C798F /* Assets.xcassets in Resources */,
-				FC017A2B1E4B1963001C4821 /* timg.jpeg in Resources */,
-				FCC9328D1E5C6E0B00227DDC /* charge6.jpg in Resources */,
-				FCC932841E5C67F800227DDC /* charge3.png in Resources */,
-				FCC932821E5C67F800227DDC /* charge5.png in Resources */,
-				FCC9327B1E5C670D00227DDC /* FJCharge.plist in Resources */,
 				FC33BC401E4ADDAF001C798F /* Main.storyboard in Resources */,
-				FCC932831E5C67F800227DDC /* charge4.png in Resources */,
+				FCF2C9631E6973BE009BB19B /* Freeicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,7 +626,6 @@
 			files = (
 				FCB464CA1E4AEC1A0081F6FA /* FJFreeJokeModel.m in Sources */,
 				FC74814A1E4ADF5600D82CB4 /* BaseModel.m in Sources */,
-				FC017A271E4AFD8F001C4821 /* FJChargeJokeTableViewCell.m in Sources */,
 				FC7484191E4ADF6900D82CB4 /* UILabel+LQAddition.m in Sources */,
 				FC33BC3A1E4ADDAF001C798F /* AppDelegate.m in Sources */,
 				FC74814C1E4ADF5600D82CB4 /* BaseTabBarViewController.m in Sources */,
@@ -734,7 +634,6 @@
 				FC74834E1E4ADF6800D82CB4 /* LQPasswordTool.m in Sources */,
 				FC33BC371E4ADDAF001C798F /* main.m in Sources */,
 				FC7483521E4ADF6800D82CB4 /* SVProgressHUD+LQAddition.m in Sources */,
-				FC017A231E4AFC9B001C4821 /* FJChargeJokeModel.m in Sources */,
 				FC74814B1E4ADF5600D82CB4 /* BaseNavigationViewController.m in Sources */,
 				FC7484181E4ADF6900D82CB4 /* UIImage+Addition.m in Sources */,
 				FC74841D1E4ADF6900D82CB4 /* KSKRoundCornerCell.m in Sources */,
@@ -746,7 +645,6 @@
 				FC74814D1E4ADF5600D82CB4 /* BaseView.m in Sources */,
 				FCE64DBB1E4C44D700D7C5BE /* FJAboutViewController.m in Sources */,
 				FC7483511E4ADF6800D82CB4 /* NSString+LQAddition.m in Sources */,
-				FC74842F1E4AE0A500D82CB4 /* FJChargeJokeViewController.m in Sources */,
 				FC74841B1E4ADF6900D82CB4 /* LQFullscreenImageViewController.m in Sources */,
 				FC74841C1E4ADF6900D82CB4 /* LQNetworkingRequest.m in Sources */,
 				FC7484171E4ADF6900D82CB4 /* UIButton+LQAddition.m in Sources */,
@@ -902,14 +800,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9XN34D62H7;
 				INFOPLIST_FILE = FirstJoke/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LCTechnology.JokeSky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "23d4df7b-16d7-49db-bf15-5976b9711bb6";
+				PROVISIONING_PROFILE_SPECIFIER = JokeSkyDevelopment;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -919,15 +817,15 @@
 			baseConfigurationReference = 51FFA657036D5700C10FB0A8 /* Pods-FirstJoke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9XN34D62H7;
 				INFOPLIST_FILE = FirstJoke/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LCTechnology.JokeSky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "04cf86b9-45ca-4247-a97a-e5df0af7cb9b";
+				PROVISIONING_PROFILE_SPECIFIER = JokeSkyDistribution;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

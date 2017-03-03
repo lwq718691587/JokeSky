@@ -47,7 +47,7 @@
 #define AppThirdTextFontSize            14
 
 //app主色调
-#define AppColor                        HexColor(@"75a7ef")
+#define AppColor                        [UIColor colorWithRed:21.f/255.f green:118.f/255.f blue:199.f/255.f alpha:1]
 //app标题颜色
 #define AppTitleColor                   HexColor(@"2f3b4a")
 //app正文颜色
