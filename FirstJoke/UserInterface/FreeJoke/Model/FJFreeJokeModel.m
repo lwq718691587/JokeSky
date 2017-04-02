@@ -11,7 +11,7 @@
 
 + (void)getjokeListOfPageNum:(NSUInteger)pageNum Success:(void(^)(NSMutableArray *dataArr))success failure:(void(^)())failure{
 
-    [LQNetworkingRequest GET:[NSString stringWithFormat:@"http://japi.juhe.cn/joke/content/text.from?key=%@&page=%ld&pagesize=10",juheAppKey,pageNum] parameters:nil needCache:YES success:^(id operation, id responseObject) {
+    [LQNetworkingRequest GET:[NSString stringWithFormat:@"http://japi.juhe.cn/joke/content/text.from?key=%@&page=%lu&pagesize=10",juheAppKey,(unsigned long)pageNum] parameters:nil needCache:YES success:^(id operation, id responseObject) {
         NSMutableArray * dataArr = [[NSMutableArray alloc]init];
         NSString * str = [responseObject objectForKey:@"error_code"];
         int code = [str intValue];
